@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style type="text/css">
+            body{
+                background-color:antiquewhite;
+                color: #424242;
+                font-family: Helvetica, Arial, sans-serif;
+            }
+            .main_title{
+                font-size: 300%;
+                text-align: center;
+                padding: 5px;
+                max-width: 1000px;
+                color: #424242;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .main_photo{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 100%;
+                height: auto;
+            }
+            .header2{
+                font-size: 250%;
+                color:rgb(156, 124, 81);
+                text-align: center;
+            }
+            .divtext{
+                background-color: rgb(156, 124, 81);
+                color: white;
+                font-size: 130%;
+                max-width: 1000px;
+                height: auto;
+                padding: 20px;
+                margin-left:auto;
+                margin-right: auto;
+                margin-top: 5px;
+                border-radius: 5px;
+            }
+            .table-image{
+                width: 300px; 
+                height:300px; 
+                object-fit: cover; 
+            }
+            .table-map{
+                width: 300px;
+                height: 300px;
+                border: none;
+            }
+
+            table{
+                width: 50%;
+                margin: auto;
+            }
+            th, td{
+                text-align: left;
+                padding: 9px;
+            }
+
+            .image-description {
+              display: none;
+              position: absolute;
+              width: 200px;
+              background-color: #f1f1f1;
+              padding: 5px;
+              border: 1px solid #ddd;
+              border-radius: 5px;
+              font-size: 14px;
+              z-index: 99999;
+            }
+            
+            td:hover .image-description {
+              display: block;
+            }
+            .container{
+                position: relative;
+                display: inline-block;
+            }
+            .img-with-text {
+                position: relative;
+            }
+
+            .img-with-text img {
+                display: block;
+                width: 100%;
+                height: auto;
+            }
+
+            .text-on-image {
+                position: absolute;
+                bottom: 4px; 
+                left: 0px;
+                padding: 10px;
+                color:white;
+                font-weight: bold;
+                font-size: 25px;
+                background-color: rgba(204, 160, 103, 0.76);
+                width: 100%;
+                box-sizing: border-box;
+            }
+
+        </style>
+       
+
+    </head>
+    <body>
+        <h1 class="main_title">Rome City Guide</h1>
+        <hr color="#424242"><br><br>
+        <a href="https://goo.gl/maps/52aHLREgdVP1socJ8"  target="_blank"><img src="Rome city view.jpg" alt="Go to Wikipedia" class = "main_photo"></a>
+        <p><h2 class="header2">The Eternal City</h2></p>
+
+        <div class="divtext"><p>Rome, the capital city of Italy, is a truly unique and fascinating place to visit. 
+            Known as the "Eternal City," Rome has a rich history dating back over two and a half thousand years, 
+            and it is one of the birthplaces of Western civilization. With its stunning architecture, beautiful 
+            public spaces, and thriving cultural scene, Rome offers visitors a wide range of experiences, from 
+            exploring ancient Roman ruins to taking in world-class art and music. Home to a diverse and multicultural 
+            population, Rome is a bustling and vibrant city that is constantly changing and evolving, making it a destination that is sure to captivate and inspire.</p>
+        </div>
+        
+        <p><h2 class="header2"> What to see</h2></p>
+        
+        <table>
+            <tr>
+              <td>
+                <div class="container">
+                    <div class="img-with-text"></div>
+                        <a href="https://www.rome.info/attractions/colosseum/" target="_blank">
+                            <img src="Colosseum.jpg" alt="Colosseum" class="table-image">
+                            <div class="text-on-image">The Colosseum</div>
+                        </a>
+                        
+                        <span class="image-description">The Colosseum is an ancient amphitheater in the center of Rome 
+                            built in 80 AD and is known for hosting gladiatorial contests and other public spectacles.</span>
+                </div>
+              </td>
+              <td>
+                <div class="container">
+                    <div class="img-with-text"></div>
+                        <a href="https://www.rome.info/attractions/st-peters-basilica/" target="_blank">
+                            <img src="Basilica di San Pietro.jpg" alt="St Peter Basilica" class="table-image">
+                            <div class="text-on-image">St. Peter's Basilica</div>
+                        </a>
+                        <span class="image-description">St. Peter's Basilica is a magnificent Renaissance church located in Vatican City, Rome. 
+                            It is considered one of the holiest Catholic shrines and is the largest church in the world.</span>
+                </div>
+              </td>
+              <td>
+                <div class="container">
+                    <div class="img-with-text"></div>
+                        <a href="https://www.rome.info/attractions/villa-borghese/" target="_blank">
+                            <img src="Villa Borghese.jpg" alt="Villa Borghese" class="table-image">
+                            <div class="text-on-image">Villa Borghese</div>
+                        </a>
+                        <span class="image-description">Villa Borghese is a beautiful park in the heart of Rome, known for its vast gardens, museums, and galleries. 
+                            It features stunning views of the city and hosts a variety of cultural events throughout the year.</span>
+                </div>
+              </td>
+              
+            </tr>
+            <tr>
+                <td>
+                    <div class="container">
+                        <div class="img-with-text"></div>
+                            <a href="https://www.rome.info/attractions/trevi-fountain/" target="_blank">
+                                <img src="Trevi fountain.jpg" alt="Trevi Fountain" class="table-image">
+                                <div class="text-on-image">Trevi Fountain</div>
+                            </a>
+                            <span class="image-description">The Trevi Fountain is an iconic Baroque fountain located in the Trevi district of Rome. It is famous for its
+                                    intricate sculptures and its legend of tossing a coin over your shoulder into the fountain to ensure your return to Rome.</span>
+                    </div>
+                </td>
+              <td>
+                <div class="container">
+                    <div class="img-with-text"></div>
+                        <a href="https://www.rome.info/attractions/piazza-navona/" target="_blank">
+                            <img src="piazza navona.jpg" alt="Piazza Navona" class="table-image">
+                            <div class="text-on-image">Piazza Navona</div>
+                        </a>
+                        <span class="image-description">Piazza Navona is a beautiful public square in the heart of Rome, known for its stunning Baroque fountains and architecture. 
+                            It is a popular gathering place for tourists and locals alike, and features a variety of street performers and artists.</span>
+                </div>
+              </td>
+              <td>
+                <div class="container">
+                    <div class="img-with-text"></div>
+                        <a href="https://www.rome.info/attractions/pantheon/"target="_blank">
+                            <img src="Pantheon.jpeg" alt="The Pantheon" class="table-image">
+                            <div class="text-on-image">The Pantheon</div>
+                        </a>
+                        <span class="image-description">The Pantheon is an ancient temple in Rome that is now a church. It is known for its stunning architecture, 
+                            including the largest unreinforced concrete dome in the world. It also houses the tombs of famous figures such as Raphael and several Italian kings.</span>
+                </div>
+              </td>
+            </tr>
+        </tr>
+        <tr>
+            <td>
+                <div class="container">
+                    <div class="img-with-text"></div>
+                        <a href="https://www.rome.info/attractions/sistine-chapel/" target="_blank">
+                            <img src="Sistine chapel.jpg" alt="Sistine Chapel" class="table-image">
+                            <div class="text-on-image">Sistine Chapel</div>
+                        </a>
+                        <span class="image-description">The Sistine Chapel is a famous chapel located in Vatican City known for its intricate frescoes painted 
+                            by Renaissance artist Michelangelo.</span>
+                </div>
+                </td>
+          <td>
+            <div class="container">
+                <div class="img-with-text"></div>
+                    <a href="https://www.rome.info/attractions/roman-forum/" target="_blank">
+                        <img src="Roman Forum.jpg" alt="Roman Forum" class="table-image">
+                        <div class="text-on-image">Roman Forum</div>
+                    </a>
+                    <span class="image-description">The Roman Forum was once the center of ancient Rome and is now a sprawling archaeological site with ruins 
+                        of ancient government buildings and temples.</span>
+                </div>
+          </td>
+          <td>
+            <div class="container">
+                <div class="img-with-text"></div>
+                    <a href="https://www.rome.info/attractions/castel-sant-angelo/"target="_blank">
+                        <img src="Castel Sant Angelo.jpg" alt="Castel Sant Angelo" class="table-image">
+                        <div class="text-on-image">Castel Sant Angelo</div>
+                    </a>
+                    <span class="image-description">Castel Sant'Angelo is a fortress located near the Vatican City, initially built as a mausoleum for the Roman 
+                        Emperor Hadrian and later used as a papal fortress and castle.</span>
+            </div>
+          </td>
+        </tr>
+          </table>
+          
+        <p><h2 class="header2"> Where to eat</h2></p>
+        
+        <table>
+            <tr>
+              <td>
+                <div class="container">
+                    <div class="img-with-text"></div>
+                        <a href="https://www.feliceatestaccio.com/" target="_blank">
+                            <img src="cacio-e-pepe.jpg" alt="Felice a testaccio" class="table-image">
+                            <div class="text-on-image">Felice a Testaccio</div>
+                        </a>
+                        <span class="image-description">The signature dish of Felice and Testaccio is Cacio e Pepe</span>
+                </div>
+              </td>
+              <td>
+                <div class="container">
+                    <div class="img-with-text"></div>
+                        <a href="https://www.cantinadeipapi.com/" target="_blank">
+                            <img src="cantina-dei-papi.jpg" alt="Prosciutteria Cantina Dei Papi" class="table-image">
+                            <div class="text-on-image">Cantina Dei Papi</div>
+                        </a>
+                        <span class="image-description">Cantina Dei Papi is most known for its cold cuts and cheeses, 
+                            porchetta, carpaccio of Chianina and Angus, gourmet sandwiches and dishes for vegetarians too.</span>
+                </div>
+              </td>
+              <td>
+                <div class="container">
+                    <div class="img-with-text"></div>
+                        <a href="https://www.osteriadafortunata.it/en/" target="_blank">
+                            <img src="osteria-piatto.jpg" alt="Osteria Da Fortunata" class="table-image">
+                            <div class="text-on-image">Osteria Da Fortunata</div>
+                        </a>
+                        <span class="image-description">Osteria Da Fortunata serves traditional hand made pasta</span>
+                </div>
+              </td>
+              
+            </tr>
+            <tr>
+                <td>
+                    <div class="container">
+                        <div class="img-with-text"></div>
+                            <a href="https://guttilla.it/en/homepage/"target="_blank">
+                                <img src="gelateria-guttilla.jpeg" alt="Gelateria Guttilla" class="table-image">
+                                <div class="text-on-image">Gelateria Guttilla </div>
+                            </a>
+                        <span class="image-description">Gelateria Guttilla is a refined Boutique where you will taste the masterpieces of the Sicilan master ice cream makers</span>
+                    </div>
+                </td>   
+                <td>
+                    <div class="container">
+                        <div class="img-with-text"></div>
+                            <a href="https://www.dabucatino.it/" target="_blank">
+                                <img src="da-bucatino.jpg" alt="Da Bucatino" class="table-image">
+                                <div class="text-on-image">Da Bucatino </div>
+                            </a>
+                            
+                            <span class="image-description">If you are looking for huge pasta dishes you cannot miss Da Bucatino</span>
+                    </div>
+                </td>
+                <td>
+                    <div class="container">
+                        <div class="img-with-text"></div>
+                            <a href="http://www.pizzeriabaffetto.it/" target="_blank">
+                                <img src="pizzeria-baffetto.jpg" alt="Pizzeria da Baffetto or Da Francesco" class="table-image">
+                                <div class="text-on-image">Pizzeria da Baffetto</div>
+                            </a>
+                            <span class="image-description">If you want to try authentic Roman pizzas Pizzeria da Baffetto is the place to go to</span>
+                    </div>
+                </td>
+            </tr>
+             </tr>
+        </table>
+        
+        <p><h2 class="header2"> Where to shop</h2></p>
+        
+        <table>
+            <tr>
+              <td>
+                <div class="container">
+                    <div class="img-with-text"></div>
+                        <a href="https://www.turismoroma.it/it/luoghi/del-corso" target="_blank">
+                            <img src="via-corso-veduta.jpg" alt="Via del Corso" class="table-image">
+                            <div class="text-on-image">Via del Corso</div>
+                        </a>
+                        
+                </div>
+              </td>
+              <td>
+                <div class="container">
+                    <div class="img-with-text"></div>
+                        <a href="https://www.divento.com/en/rome/8633-via-cola-di-rienzo-rome.html" target="_blank">
+                            <img src="vila-cola-di-rienzo.jpg" alt="Via Cola Di Rienzo" class="table-image">
+                            <div class="text-on-image">Via Cola Di Rienzo</div>
+                        </a>
+                        
+                </div>
+              </td>
+              <td>
+                <div class="container">
+                    <div class="img-with-text"></div>
+                        <a href="https://www.rinascente.it/it/store-roma-via-del-tritone" target="_blank">
+                            <img src="Rinascente.jpg" alt="Rinascente" class="table-image">
+                            <div class="text-on-image">Rinascente</div>
+                        </a>
+                        
+                </div>
+              </td>
+              
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://goo.gl/maps/3StH9iLuCQD9Xunk7">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.5183597250957!2d12.47693097549384!3d41.90321426384228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6053f4560eaf%3A0x92dc2249ee91dd51!2sVia%20del%20Corso%2C%2000187%20Roma%20RM%2C%20Italy!5e0!3m2!1sen!2ses!4v1683122825073!5m2!1sen!2ses" class="table-map"></iframe>
+                    </a>
+                </td>
+                <td>
+                    <a href="https://goo.gl/maps/x2oTbGdc1VqmGGAa9">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.2967866114914!2d12.46262771105264!3d41.90797826342393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f605f22bdafa7%3A0x7d982b12c58cd74b!2sVia%20Cola%20di%20Rienzo%2C%20Roma%20RM%2C%20Italy!5e0!3m2!1sen!2ses!4v1683123173549!5m2!1sen!2ses" class="table-map"></iframe>
+                    </a>
+                </td>
+                <td>
+                    <a href="https://goo.gl/maps/W5WN4FKSj4Wf7n847">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5939.080023897423!2d12.47506149357911!3d41.9027487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61aca8a05a77%3A0x957def62d797f9e6!2sLa%20Rinascente!5e0!3m2!1sen!2ses!4v1683123252244!5m2!1sen!2ses" class="table-map"></iframe>
+                    </a>
+                </td>
+                  
+            </tr>
+            
+        </table>
+        
+     
+       
+        
+    </body>
+    <footer>
+        
+    </footer>
+      
+</html>
